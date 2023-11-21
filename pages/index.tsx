@@ -10,7 +10,6 @@ import Features from 'views/HomePage/Features';
 import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
-import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -20,32 +19,26 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="Explore a world of seamless real estate transactions with Realtinger. Discover your dream home, sell properties effortlessly, and stay updated with the latest trends. Your key to a streamlined real estate experience is just a click away."
         />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Your Platform for Cooperative Real Estate Ventures." overTitle="seamless collaboration">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+            Unlock the power of collaboration on Realtinger. Whether you're a buyer, seller, or investor, our platform offers a range of tools to streamline cooperation. 
+            Connect with potential partners, share insights, and negotiate deals with ease. Realtinger is not just a platform; it's your collaborative hub for successful real estate ventures. 
+            Start cooperating today and turn opportunities into achievements
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Turning Real Estate Goals into Achievements." overTitle="celebrate milestones" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Realtinger is more than a platform; <strong>it's your partner in achieving real estate success</strong>. 
+            From finding your dream property to closing deals and maximizing returns, we empower you to reach your milestones. 
+            Join a community that celebrates your achievements in the dynamic world of real estate. With Realtinger, every step is a triumph. Start your journey toward real estate success today.
             </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
@@ -53,7 +46,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <FeaturesGallery />
           <Features />
           <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

@@ -13,19 +13,20 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Where Opportunities Meet Home</OverTitle>
+          <SectionTitle>Discover Your Dream Home</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+          Explore a curated selection of properties tailored to your unique preferences. 
+          From cozy apartments to spacious family homes, find the perfect dwelling that resonates with your lifestyle. 
+          Your dream home awaits – start the journey with Realtinger.
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="/sign-up" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Click here to get started <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+            <NextLink href="/features" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
