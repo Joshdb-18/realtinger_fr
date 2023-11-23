@@ -59,7 +59,7 @@ const FEATURES = [
 
 export default function FeaturesPage() {
   return (
-    <Page title="Features" description="Explore the array of features that make Realtinger the go-to platform for your real estate journey. .">
+    <Page title="Features" description="Explore the array of features that make Realtinger the go-to platform for your real estate journey.">
       <Wrapper>
         <SectionTitle>Check out this quick introduction</SectionTitle>
         <YoutubeVideo url="https://www.youtube.com/watch?v=BggrpKfqh1c" />

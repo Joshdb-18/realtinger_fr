@@ -13,7 +13,7 @@ const TABS = [
     title: 'Find relevant properties - Smart Search',
     description:
       '<p>Effortlessly find your ideal property with our intelligent search feature. Tailor your search criteria, from location and price range to specific amenities, and watch as our smart algorithms present you with the most relevant options.</p>',
-    imageUrl: '/demo-illustration-3.png',
+    imageUrl: '/demo-feature-1.jpg',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
@@ -21,7 +21,7 @@ const TABS = [
     title: 'Virtual Tours',
     description:
       '<p>Immerse yourself in the comfort of your future home through our immersive virtual tours. Explore every room, corner, and detail, all from the convenience of your device. Experience properties like never before before making a decision.</p>',
-    imageUrl: '/demo-illustration-4.png',
+    imageUrl: '/demo-feature-2.jpg',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
@@ -29,7 +29,7 @@ const TABS = [
     title: 'Instant Notifications',
     description:
       '<p>Stay ahead of the game with real-time notifications. Receive instant updates on new listings, price changes, and exclusive offers. Our notification system ensures you never miss an opportunity in the dynamic real estate market.</p>',
-    imageUrl: '/demo-illustration-5.png',
+    imageUrl: '/demo-feature-3.jpg',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
